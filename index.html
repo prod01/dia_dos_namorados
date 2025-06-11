@@ -39,10 +39,12 @@
             margin-right: auto;
         }
         .story-section img {
-            max-width: 100%;
-            height: auto;
+             width: 100%; /* agora responsivo */
+            height: auto; /* evita esticar */
+            max-height: 400px; /* altura máxima */
             border-radius: 8px;
             margin-bottom: 20px;
+            object-fit: cover; /* mantém proporção */
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
         .story-section h2 {
